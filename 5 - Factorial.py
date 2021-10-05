@@ -1,0 +1,8 @@
+print("Enter number to find Factorial of: ", end="")
+n = int(input())
+m = 1
+
+for i in range(1, n+1):
+    m = m * i
+
+print(f"{n}! = {m}")
